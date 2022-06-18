@@ -71,7 +71,7 @@ function sortByName(e) {
   })
 }
 
-function filterByChange(e) {
+function filterOnChange(e) {
 
   const input = e.target
   const inputValues = input.value.split(',')
@@ -104,9 +104,7 @@ function filterByChange(e) {
   })
 }
 
-
-
-filterForm.oninput = filterByChange
+filterForm.oninput = filterOnChange
 sortButtons.forEach(button => button.onclick = sortByName)
 
 
