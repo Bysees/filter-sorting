@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="sort.js" defer></script>
+  <script src="filter.js" defer></script>
+  <script src="table.js" defer></script>
+  <script src="output.js" defer></script>
+  <title>Course prices</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <form>
+      <h3>Выберите диапазон цен:</h3>
+
+      <input type="radio" name="price" id="all" data-value="all" value="undefined" cheked>
+      <label for="all">Все</label>
+
+      <input type="radio" name="price" id="one" value="null,200">
+      <label for="one">до 200</label>
+
+      <input type="radio" name="price" id="two" value="100,350">
+      <label for="two">от 100 до 350</label>
+
+      <input type="radio" name="price" id="three" value="200,null">
+      <label for="three">от 200</label>
+    </form>
+  </div>
+</body>
+
+</html>
