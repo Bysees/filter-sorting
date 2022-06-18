@@ -1,0 +1,23 @@
+{
+  "name": "filter-sorting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bysees/filter-sorting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bysees/filter-sorting/issues"
+  },
+  "homepage": "https://bysees.github.io/filter-sorting/",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
